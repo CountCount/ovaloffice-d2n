@@ -1,0 +1,3205 @@
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+00:57:49 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+01:12:44 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+01:17:01 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+02:32:00 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+03:06:34 (mailbox.message.php) Could not open database: db419098581
+
+
+03:06:34 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "788597de5f82a52baef0bdc94c3afb66" 
+
+
+03:06:48 (mailbox.message.php) Could not open database: db419098581
+
+
+03:06:48 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "fe21f65556223b904051fc70edfb5c952544042" 
+
+
+03:08:15 (mailbox.message.php) Could not open database: db419098581
+
+
+03:08:15 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "a469f17757228d7faf1e49eef8352cf98566c6" 
+
+
+03:08:21 (mailbox.message.php) Could not open database: db419098581
+
+
+03:08:21 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "e64fe1842dc566595f72cd2d2b663fd69e3f41" 
+
+
+03:10:52 (mailbox.message.php) Could not open database: db419098581
+
+
+03:10:52 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "c02067205801f5726811fd346410fc783c01037" 
+
+
+03:13:33 (mailbox.message.php) Could not open database: db419098581
+
+
+03:13:33 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "a85b358007894d239f3afd5c187d8f83e5a324" 
+
+
+03:15:42 (mailbox.message.php) Could not open database: db419098581
+
+
+03:15:42 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "1a2431cd80a6de8bb13ff58bc9dca1046d08c24" 
+
+
+03:16:34 (mailbox.message.php) Could not open database: db419098581
+
+
+03:16:34 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "788597de5f82a52baef0bdc94c3afb66" 
+
+
+03:16:47 (mailbox.message.php) Could not open database: db419098581
+
+
+03:16:47 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "fe21f65556223b904051fc70edfb5c952544042" 
+
+
+03:18:22 (mailbox.message.php) Could not open database: db419098581
+
+
+03:18:22 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "e64fe1842dc566595f72cd2d2b663fd69e3f41" 
+
+
+03:20:52 (mailbox.message.php) Could not open database: db419098581
+
+
+03:20:52 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "c02067205801f5726811fd346410fc783c01037" 
+
+
+03:25:42 (mailbox.message.php) Could not open database: db419098581
+
+
+03:25:42 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "1a2431cd80a6de8bb13ff58bc9dca1046d08c24" 
+
+
+03:26:34 (mailbox.message.php) Could not open database: db419098581
+
+
+03:26:34 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "788597de5f82a52baef0bdc94c3afb66" 
+
+
+03:26:49 (mailbox.message.php) Could not open database: db419098581
+
+
+03:26:49 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "fe21f65556223b904051fc70edfb5c952544042" 
+
+
+03:28:21 (mailbox.message.php) Could not open database: db419098581
+
+
+03:28:21 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "e64fe1842dc566595f72cd2d2b663fd69e3f41" 
+
+
+03:30:52 (mailbox.message.php) Could not open database: db419098581
+
+
+03:30:52 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "c02067205801f5726811fd346410fc783c01037" 
+
+
+03:35:42 (mailbox.message.php) Could not open database: db419098581
+
+
+03:35:42 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "1a2431cd80a6de8bb13ff58bc9dca1046d08c24" 
+
+
+03:36:34 (mailbox.message.php) Could not open database: db419098581
+
+
+03:36:34 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "788597de5f82a52baef0bdc94c3afb66" 
+
+
+03:38:24 (mailbox.message.php) Could not open database: db419098581
+
+
+03:38:24 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "e64fe1842dc566595f72cd2d2b663fd69e3f41" 
+
+
+03:40:52 (mailbox.message.php) Could not open database: db419098581
+
+
+03:40:52 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "c02067205801f5726811fd346410fc783c01037" 
+
+
+03:44:07 (mailbox.message.php) Could not open database: db419098581
+
+
+03:44:07 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "1a2431cd80a6de8bb13ff58bc9dca1046d08c24" 
+
+
+03:49:18 (bau.ajax.php) Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Query:  SELECT pid FROM dvoo_town_blueprints WHERE tid =  
+
+
+03:49:18 (bau.ajax.php) Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND day =' at line 1
+Query:  SELECT b.id FROM dvoo_buildings b INNER JOIN dvoo_town_buildings t ON t.bid = b.id WHERE t.tid =  AND day = 
+
+
+03:50:25 (mailbox.message.php) Could not open database: db419098581
+
+
+03:50:25 (mailbox.message.php) Error: MySQL server has gone away
+Query:  SELECT * FROM dvoo_citizens WHERE scode = "405e416210f0479ebf75055d11b6b1a2fc00a2" 
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+05:27:45 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 26781 AND sb.cday = 29
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 26865 AND sb.cday = 24
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27056 AND sb.cday = 11
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27132 AND sb.cday = 7
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27110 AND sb.cday = 7
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27126 AND sb.cday = 6
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27137 AND sb.cday = 6
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27149 AND sb.cday = 6
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27152 AND sb.cday = 5
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27156 AND sb.cday = 5
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27140 AND sb.cday = 5
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27151 AND sb.cday = 5
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27166 AND sb.cday = 4
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27181 AND sb.cday = 4
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27165 AND sb.cday = 4
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27171 AND sb.cday = 4
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27178 AND sb.cday = 3
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27195 AND sb.cday = 3
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27202 AND sb.cday = 2
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27186 AND sb.cday = 2
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27197 AND sb.cday = 2
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27227 AND sb.cday = 2
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27200 AND sb.cday = 2
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27219 AND sb.cday = 2
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27217 AND sb.cday = 2
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27226 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27215 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27230 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27241 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27239 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27233 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27235 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT SUM( sb.icount ) 
+FROM dvoo_bankitems sb
+INNER JOIN dvoo_items si ON si.iid = sb.iid
+AND si.icat =  "Armor" WHERE sb.tid = 27232 AND sb.cday = 1
+
+
+05:38:02 (stat.ajax.php) Error: MySQL server has gone away
+Query:  SELECT ze, zc, gc FROM dvoo_stat_camouflage 
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+05:39:22 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+06:34:43 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+09:04:31 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+09:47:19 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+11:36:07 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+14:45:03 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+17:37:04 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+18:34:03 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+19:12:42 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+19:23:07 (bau.ajax.php) Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Query:  SELECT pid FROM dvoo_town_blueprints WHERE tid =  
+
+
+19:23:07 (bau.ajax.php) Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND day =' at line 1
+Query:  SELECT b.id FROM dvoo_buildings b INNER JOIN dvoo_town_buildings t ON t.bid = b.id WHERE t.tid =  AND day = 
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.z DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1334235600 AND (t.stamp - ((t.day - 1) * 86400)) < 1352124000 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.z DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1321398300 AND (t.stamp - ((t.day - 1) * 86400)) < 1334235600 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.z DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) > 1311262200 AND (t.stamp - ((t.day - 1) * 86400)) < 1321398300 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.z, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0  AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.z DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v < 15000 AND x.v >= 10000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query:  
+			SELECT x.v, t.name, t.id, x.day 
+			FROM dvoo_stat_zombies x 
+			INNER JOIN dvoo_towns t ON t.id = x.tid  
+			WHERE x.day > 0 AND x.v >= 15000 AND (t.stamp - ((t.day - 1) * 86400)) < 1311262200 ORDER BY x.v DESC LIMIT 1
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 100 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 101 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
+20:02:10 (stat.ajax.php) Error: MySQL server has gone away
+Query: SELECT COUNT(*) AS c, (ROUND(SQRT((b.x - t.x)*(b.x - t.x) + (t.y - b.y)*(t.y - b.y)))) AS km FROM `dvoo_zones_buildings` b INNER JOIN dvoo_towns t ON t.id = b.tid WHERE b.type = 102 AND t.h > 15
+	GROUP BY km ORDER BY c DESC
+
+
